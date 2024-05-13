@@ -1,0 +1,63 @@
+h1, p, li{
+    border: 10px dashed;
+
+}
+
+.jay{
+    color: red;
+    font-size: 500;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    text-decoration: none;
+    line-height: 70px;
+    word-spacing: 30px;
+letter-spacing: 20px;
+font-family: poppins, sans-serif;
+}
+
+.parent .child{
+
+}
+.chichi{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.chichi:nth-child(4){
+background:brown;
+
+}
+section h1 +p {
+    font-size: 35px;
+    color: blue;
+}
+
+a:hover{
+    color: darkorange;
+    font-size: 40px;
+    text-decoration: none;
+}
+.model .bolu{
+    height: 150px;
+    width: 300px;
+    border: 1px solid tan;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 30px;
+}
+.one, .two, .three{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    margin: 20px;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: blue;
+}
+.three{
+  background-color:  brown;
+}
